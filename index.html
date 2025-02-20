@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+    <hed>
+        <title>Aguirres Burguer</title>
+                     <center><h1>Bienvenidos a Aguirre's Burger</h1></center>
+
+
+              
+
+
+
+
+
+
+                     <center><img src="c:\Users\valen\Downloads\WhatsApp Image 2025-02-19 at 10.44.54 AM.jpeg" alt="Logo de Aguirre's Burger" style="width: 100px; height: auto;"></center>
+     <hr>
+
+
+                     <a href="index.html" class="inicio-btn">Inicio</a>
+                     <style>
+                         .inicio-btn {
+                             padding: 10px 20px;
+                             font-size: 16px;
+                             color: white;
+                             background-color: #d9534f;
+                             border: none;
+                             border-radius: 5px;
+                             text-decoration: none;
+                             cursor: pointer;
+                         }
+                     
+                         .inicio-btn:hover {
+                             background-color: #c9302c;
+                         }
+                     </style>
+                     
+
+                <a href="https://wa.me/3053054215" class="whatsapp-btn">Contactar por WhatsApp</a>
+                <style>
+                    .whatsapp-btn {
+                        padding: 10px 20px;
+                        font-size: 16px;
+                        color: white;
+                        background-color: #25d366;
+                        border: none;
+                        border-radius: 5px;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+                
+                    .whatsapp-btn:hover {
+                        background-color: #128c7e;
+                    }
+                </style>
+
+
+               
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botón Desplegable</title>
+    <style>
+        .menu {
+            position: relative;
+            display: inline-block;
+        }
+
+        .menu-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #d9534f;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .menu-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .menu-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .menu-content a:hover {
+            background-color: #d9f364;
+        }
+
+        .menu-btn:focus + .menu-content,
+        .menu-btn:active + .menu-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <button class="menu-btn">Menú</button>
+        <div class="menu-content">
+            <a href="#">Perro $7.000</a>
+            <a href="#">Hamburguesa Vegetariana $25.000</a>
+            <a href="#">Hamburguesa Doble Carne $25.900</a>
+            <a href="#">Hamburguesa Caldence $28.300</a>
+            <a href="#">Hamburguesa Italiana $35.000</a>
+            <a href="#">perro montañero 30.000</a>
+            <a href="#">perrito montañero $13.000</a>
+            <a href="#">salchipapa $10.000</a>
+            <a href="#">tacos $14.000</a>
+            <a href="#">filete asado de pollo $29.000 </a>
+        </div>
+    </div>
+    
+<br>
+                  
+<center>
+   Pide tu domicilio
+  
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Cliente</title>
+    <style>
+        label, input, textarea, button {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Información del Cliente</h2>
+    <form id="clienteForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+        
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+        
+        <button type="button" onclick="enviarAWhatsApp()">Enviar</button>
+    </form>
+
+    <script>
+        function enviarAWhatsApp() {
+            var nombre = document.getElementById('nombre').value;
+            var apellido = document.getElementById('apellido').value;
+            var direccion = document.getElementById('direccion').value;
+            var email = document.getElementById('email').value;
+            var telefono = document.getElementById('telefono').value;
+            var mensaje = document.getElementById('mensaje').value;
+
+            var texto = `Nombre: ${nombre}%0AApellido: ${apellido}%0ADirección: ${direccion}%0AEmail: ${email}%0ATeléfono: ${telefono}%0AMensaje: ${mensaje}`;
+            var url = `https://api.whatsapp.com/send?phone=573053054215&text=${texto}`;
+
+            window.open(url, '_blank');
+
+            // Limpiar los campos del formulario después de enviar
+            document.getElementById('clienteForm').reset();
+        }
+       </script>
+</center>
+</body>
+</html>
+
+
+          <br>
+            
+<p>
+            En Aguirre's Burger, te invitamos a disfrutar de la mejor experiencia en hamburguesas gourmet. Nuestro compromiso es ofrecerte ingredientes frescos y de alta calidad en cada bocado.
+
+</p>
+
+<p>
+            <center><h1> ¿Qué nos hace especiales?</h1></center>
+</p>
+            Hamburguesas Artesanales: Cada hamburguesa es elaborada con amor y dedicación, utilizando carne 100% de res y opciones vegetarianas deliciosas.
+            
+            Ingredientes Frescos: Priorizamos productos locales y frescos para garantizar el mejor sabor y calidad.
+            
+            Ambiente Acogedor: Nuestro restaurante es un lugar donde puedes relajarte y disfrutar de una comida excepcional con amigos y familia.
+            
+           
+            
+         
+
+           <h3></h3><marquee behavior="scroll" direction="left">   
+                ¡Aguirre's Burger! es la mejor opcion para tu paladar.
+            </marquee>
+        </h3>
+<p>
+    En Aguirre's Burger, creemos que cada hamburguesa cuenta una historia. Fundado con la pasión por la cocina y el deseo de crear experiencias memorables, nuestro restaurante es el resultado de años de dedicación y amor por la gastronomía.
+
+    Nuestra Misión
+    Nuestra misión es simple: ofrecer a nuestros clientes hamburguesas excepcionales en un ambiente acogedor y familiar. Nos esforzamos por utilizar solo los mejores ingredientes y por innovar constantemente para sorprenderte con nuevos y deliciosos sabores.
+    
+    Valores
+    Calidad: Nos comprometemos a usar ingredientes frescos y de alta calidad en cada plato.
+    
+    Innovación: Siempre estamos buscando nuevas formas de mejorar y crear platos únicos.
+    
+    Servicio al Cliente: Tu satisfacción es nuestra prioridad. Queremos que cada visita sea una experiencia agradable y memorable.
+    
+    Sostenibilidad: Apoyamos a los productores locales y adoptamos prácticas sostenibles para cuidar nuestro planeta.
+</p>            
+  
+                                
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Comidas Rápidas</title>
+    <style>
+        body {
+            background-color: #86a794;
+            color: rgb(15, 15, 15);
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenido de la página -->
+</body>
+</html>
+
+<br>
+<center>
+Comentarios
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .comment-box {
+            width: 300px; /* Ajusta el ancho del cuadro */
+            height: 60px; /* Altura más pequeña */
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .comment-section {
+            margin-top: 20px;
+        }
+        .comment {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+        }
+        .submit-btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Deja tu comentario</h2>
+    <textarea class="comment-box" id="commentText" placeholder="Escribe tu comentario aquí..."></textarea><br>
+    <button class="submit-btn" onclick="submitComment()">Enviar comentario</button>
+
+    <div class="comment-section" id="commentsSection">
+        <!-- Los comentarios aparecerán aquí -->
+    </div>
+
+    <script>
+        // Función para eliminar espacios al enviar
+        function submitComment() {
+            var commentText = document.getElementById('commentText').value.trim();
+
+            if (commentText === '') {
+                alert('El comentario no puede estar vacío.');
+                return;
+            }
+
+            // Crear un nuevo div para el comentario
+            var commentDiv = document.createElement('div');
+            commentDiv.classList.add('comment');
+            commentDiv.innerText = commentText;
+
+            // Agregar el nuevo comentario a la sección de comentarios
+            var commentsSection = document.getElementById('commentsSection');
+            commentsSection.appendChild(commentDiv);
+
+            // Limpiar el campo de comentario
+            document.getElementById('commentText').value = '';
+        }
+    </script>
+
+</body>
+</html>
+            
+<h3></h3><marquee behavior="scroll" direction="left">   
+    Te esperamos.
+</marquee>
+        
+
+
+
+
+
+        </body>
+    </hed>
+</html>
